@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>aula-midia</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes ou ou aumende e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:725px )" srcset="imagem/image-p.png" type="image/png">
+        <source media="(max-width: 1038px)" srcset="imagem/image-m.png" type="image/png">
+        <img src="imagem/image-g.png" alt="Imagem flexível">
+    </picture>
+    <h2>Reproduzir audio </h2>
+    <p>reprodusir audio no html5</p>
+    <!--<audio src="midia/musica-baroes.mp3" controls autoplay></audio>--formato compativel com os navegadores: MP3, WAV E OGG-->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/musica-baroes.mp3" type="audio/mpeg">
+        <source src="midia/musica-baroes.ogg" type="audio/ogg">
+        <source src="midia/musica-baroes.wav" type="audio/wav">
+        <p>infelismente seu navegador nao consegue reproduzir audio <a href="midia/musica-baroes.mp3">clik aqui para baixar o arquivo de audio</a></p>
+
+    </audio>
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+    <style>
+        body{           
+            height: 350px;
+            width: 600px;
+            /*
+            border-width: 8px;
+            border-style: solid;
+            border-color: maroom;
+
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-l eft: 10px;
+
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            */
+            border: 8px solid maroon;
+            padding: 5px 10px;
+            margin: 10px;
+        }
+        h1{
+            text-align: center;
+            background-color: rgb(252, 252, 21);
+            height: 60px;
+            width: 400px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: blue;
+            /*ou simplificada: border: 10px solid blue:*/
+
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            /*ou simplificado;
+            padding: 5px, para todos os lados.
+            padding: 5px 10px, para 5 em sima e 5 em aixo e 10 na direita e 10na esquerda*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: grey;*/
+        
+            outline: 5px dashed grey;
+            
+        }
+        a{ background-color: salmon;
+            border: 3px  solid green;
+            margin: auto;
+            
+               
+        }p{
+            background-color: rgb(240, 195, 174);
+            height: 60px;
+            width: 400px;
+            border: 5px solid rgb(5, 245, 125);
+            padding: 10px;
+
+           margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafo também são exemplos de box-level, mas os <a href="#">links são exmplos de caixa inline-level</a>Vamos ver como tudo isso funsiona.</p>
+</body>
+</html>
