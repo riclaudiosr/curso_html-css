@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Radio</title>
+    <style>
+        body{
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>cadrastro Turma</h1>
+    <h2>form Radio</h2>
+    <form>
+        <label>Turma</label><br>
+        <input type="radio" name="n-tur" value="turma1" checked>1<br>
+        <input type="radio" name="n-tur" value="turma2">2 <br>
+        <input type="radio" name="n-tur" value="turma3">3<br>
+        <input type="radio" name="n-tur" value="turma4">4<br>
+        <input type="submit"value="Enviar">
+    </form>
+    <h2>form select</h2>
+
+    <form>
+    <label >Nivel de Acesso</label>
+        <select name="nivel_acesso">
+            <option value="1">São Paulo</option>
+            <option value="2">Rio de Janeiro</option>
+            <option value="3">Minas Gerais</option>
+            <option value="4" selected>Bahia</option>
+        </select>
+        <input type="submit" value="Seleciona"><br><br>
+    </form>
+
+    <h2>Form texarea</h2>
+<form>
+    <label>Mensagem</label>
+    <textarea name="msg" rows="10" cols="50" placeholder="Conteudo da msg"></textarea>
+    <br><br>
+    <input type="submit" value="Enviar">
+</form>
+<br><br>
+    <button type="button" onclick="alert('msg conferida')">
+        conferir
+    </button>
+</body>
+</html>
